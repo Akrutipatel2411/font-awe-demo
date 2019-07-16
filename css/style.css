@@ -1,0 +1,111 @@
+body,html
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+*
+{
+    box-sizing: border-box;
+}
+ul,li
+{
+    margin: 0;
+    padding: 0;
+    
+}
+.main-head
+{
+    width: 80%;
+/*    background-color: lightcyan;*/
+    text-align: center;
+    margin: auto;
+    text-transform: capitalize;
+}
+.head-font
+{
+    font-family: 'Muli', sans-serif;
+    font-weight: 500;
+    
+}
+.clr-head
+{
+    
+    line-height: 1.2em;
+    color: cadetblue;
+    
+    
+}
+.sub-h4
+{
+    line-height: 1;
+    font-size: 35px .important!;
+    color: lightseagreen;
+}
+
+.head-font.sub-h4
+{
+    text-decoration: underline;
+    
+}
+.pera
+{
+    color: seagreen;
+    line-height: 2;
+    padding: 20px 100px;
+    font-size: 14px;
+    font-weight: lighter .important!;
+}
+
+.main-head+ .footer
+{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    overflow: auto;
+}
+.copy-txt
+{
+    float: left;
+        
+font-family: 'Muli', sans-serif;
+}
+.copy-txt >.info-pera
+{
+    color: gray;
+    letter-spacing: 1px;
+}
+.soc-list
+{
+    text-align: center;
+    float: right;
+    padding: 0px 20px;
+}
+.soc-list-item
+{
+    display: inline-block;
+    padding: 10px;
+    list-style: none;
+    font-size: 40px;
+}
+
+.t-clr
+{
+    color:  #00acee;
+    text-decoration: none;
+}
+.p-clr
+{
+    color: #ff0000;
+    text-decoration: none;
+}
+.f-clr
+{
+    color: #3b5998;
+    text-decoration: none;
+}
+.i-clr
+{
+    color: #3f729b;
+    text-decoration: none;
+}
